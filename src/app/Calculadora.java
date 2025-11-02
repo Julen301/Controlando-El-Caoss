@@ -11,5 +11,8 @@ public class Calculadora {
         System.out.println("Multiplicación: " + (a * b));
         System.out.println("División: " + (a / b));
         System.out.println("Porcentaje (a% de b): " + (a * b / 100.0));
+        System.out.println("Módulo (resto): " + (a % b));
+        System.out.println("Potencia: " + Math.pow(a, b));
+
     }
 }
